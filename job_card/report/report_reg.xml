@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <!-- QWeb Reports for Calendar Meeting -->
+        <report
+            id="job_card_report"
+            model="account.analytic.line"
+            menu="False"
+            report_type="qweb-pdf"
+            string="Print Jobcard Report"
+            name="job_card.job_card_report_template"
+            file="job_card.job_card_report_template"
+         />
+        
+    </data>
+</openerp>
